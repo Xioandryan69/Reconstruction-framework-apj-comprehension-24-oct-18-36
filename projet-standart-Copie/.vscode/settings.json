@@ -1,0 +1,23 @@
+{
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-1.8",
+            "path": "/usr/lib/jvm/java-8-openjdk-amd64",
+            "default": true
+        },
+        {
+            "name": "JavaSE-21",
+            "path": "/usr/lib/jvm/java-21-openjdk-amd64"
+        }
+    ],
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-8-openjdk-amd64",
+    "java.autobuild.enabled": false,
+    "java.project.sourcePaths": [
+        "projet-standard-Copie/arbiochem-ejb/src/java",
+        "projet-standard-Copie/arbiochem-war/src/java"
+    ],
+    "java.project.referencedLibraries": [
+        "projet-standard-Copie/build-file/lib/**/*.jar"
+    ]
+
+}
